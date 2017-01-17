@@ -7,7 +7,6 @@ import os
 app = Flask(__name__)
 
 
-
 @app.route('/')
 def get_home():
 	return render_template('load.html')
@@ -24,8 +23,6 @@ def get_prepare():
 @app.route('/train')
 def get_train():
 	return render_template('train.html')
-
-
 
 
 
